@@ -1,0 +1,80 @@
+@charset "UTF-8";
+.vltop {
+	text-align:center;
+}
+.vltop input {
+  padding: 6px 16px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 10px;
+  -webkit-appearance: none;
+  color: #ffffff;
+  border: 1px solid #292b2c;
+  background: #292b2c;
+  transition: border .3s ease;
+}
+.vltop input::-webkit-input-placeholder {
+  color: #CBD1DC;
+}
+.vltop input:-ms-input-placeholder {
+  color: #CBD1DC;
+}
+.vltop input::-ms-input-placeholder {
+  color: #CBD1DC;
+}
+.vltop input::placeholder {
+  color: #CBD1DC;
+}
+.vltop input:focus {
+  outline: none;
+  border-color: #635966;
+}
+
+.vltop button{
+    color:#fff;
+    background-color:#292b2c;
+    border-color:#292b2c;
+    
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+.vltop button:hover{
+    color:#fff;
+    background-color:#171818;
+    border-color:#101112;
+}
+.vltop button:focus{
+    box-shadow:0 0 0 .2rem rgba(41,43,44,.5)
+}
+
+
+.vltop table{
+    margin:auto;
+}
+.show{
+	border:1px;
+	color:white;
+	background:black;
+	opacity:0.7;
+	width:100%;
+}
+
+.show tr:hover{
+	background:rgb(43, 85, 85);
+	transition:background-color .15s ease-in-out;
+}
+
+
